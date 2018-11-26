@@ -13,8 +13,17 @@
 
 
 declare var Game_Interpreter: any;
+declare var Window_Base: any;
 declare var $dataWeapons: any;
 declare var $dataSkills: any;
+
+var remove_level = Window_Base.prototype.drawActorLevel;
+
+Window_Base.prototype.drawActorLevel = function(actor, x, y) {
+
+
+}
+    
     
 var ammo_system = Game_Interpreter.prototype.pluginCommand;
 
