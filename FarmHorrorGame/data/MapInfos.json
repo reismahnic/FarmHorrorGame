@@ -1,7 +1,7 @@
 [
 null,
-{"id":1,"expanded":false,"name":"Blank Cutscene Map","order":1,"parentId":0,"scrollX":593.3333333333334,"scrollY":404.6666666666667},
-{"id":2,"expanded":false,"name":"Forest","order":2,"parentId":0,"scrollX":1516,"scrollY":868},
+{"id":1,"expanded":false,"name":"Blank Cutscene Map","order":1,"parentId":0,"scrollX":412,"scrollY":351.3333333333333},
+{"id":2,"expanded":false,"name":"Forest","order":2,"parentId":0,"scrollX":1505.3333333333333,"scrollY":858},
 {"id":3,"expanded":false,"name":"House Interior","order":3,"parentId":0,"scrollX":832,"scrollY":640},
 {"id":4,"expanded":false,"name":"ForestPondShack","order":5,"parentId":0,"scrollX":832,"scrollY":640},
 {"id":5,"expanded":false,"name":"ForestPondShackCellar","order":6,"parentId":0,"scrollX":593.3333333333334,"scrollY":404.6666666666667},
