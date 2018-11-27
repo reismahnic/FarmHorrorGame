@@ -42,15 +42,6 @@ Game_Interpreter.prototype.pluginCommand = function(command: any, args: any) {
     //Create the weapon to shoot
     let weapon = findWeapon(args[0]);
 
-    function findSkill(name: string) {
-        for (let i = 0; i < $dataSkills.length; i++){
-            if ($dataSkills[i] != null && $dataSkills[i]['name'] == "Fire " + name) {
-                return $dataSkills[i];
-            }
-        }
-    }
-
-
     if (command == "cantShoot") {
     
         //The "Seal" code is 44
