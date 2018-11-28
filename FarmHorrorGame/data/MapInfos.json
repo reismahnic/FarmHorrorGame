@@ -1,13 +1,13 @@
 [
 null,
 {"id":1,"expanded":false,"name":"Blank Cutscene Map","order":1,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999},
-{"id":2,"expanded":true,"name":"Forest","order":2,"parentId":0,"scrollX":1316.3999999999999,"scrollY":1712.3999999999999},
+{"id":2,"expanded":true,"name":"Forest","order":2,"parentId":0,"scrollX":768,"scrollY":1019.3333333333334},
 {"id":3,"expanded":false,"name":"House Interior","order":3,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999},
 {"id":4,"expanded":true,"name":"ForestPondShack","order":5,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999},
-{"id":5,"expanded":false,"name":"ForestPondShackCellar","order":6,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999},
+{"id":5,"expanded":false,"name":"ForestPondShackCellar","order":6,"parentId":0,"scrollX":501.3333333333333,"scrollY":360.6666666666667},
 {"id":6,"expanded":false,"name":"HouseOnCliff","order":4,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999},
-{"id":7,"expanded":false,"name":"ForestIntoFields","order":7,"parentId":0,"scrollX":1490.3999999999999,"scrollY":968.4},
-{"id":8,"expanded":false,"name":"Fields","order":8,"parentId":0,"scrollX":1490.3999999999999,"scrollY":1362},
-{"id":9,"expanded":false,"name":"ForestBeforeEnteringShack","order":9,"parentId":0,"scrollX":1426.8,"scrollY":1362},
+{"id":7,"expanded":false,"name":"ForestIntoFields","order":7,"parentId":0,"scrollX":1013.3333333333334,"scrollY":1570},
+{"id":8,"expanded":false,"name":"Fields","order":8,"parentId":0,"scrollX":1013.3333333333334,"scrollY":1924.6666666666667},
+{"id":9,"expanded":false,"name":"ForestBeforeEnteringShack","order":9,"parentId":0,"scrollX":526.6666666666666,"scrollY":787.3333333333334},
 {"id":10,"expanded":false,"name":"ForestPondShackBeforeFirstFight","order":10,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999}
 ]
