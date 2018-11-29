@@ -16,22 +16,23 @@ Window_Base.prototype.drawActorLevel = function (actor, x, y) {
 var ammo_system = Game_Interpreter.prototype.pluginCommand;
 Game_Interpreter.prototype.pluginCommand = function (command, args) {
     ammo_system.apply(this);
-    function findWeapon(name) {
-        for (var i = 0; i < $dataWeapons.length; i++) {
-            if ($dataWeapons[i] != null && $dataWeapons[i]['name'] == name) {
-                return $dataWeapons[i];
+    function findSkill(name) {
+        for (var i = 0; i < $dataSkills.length; i++) {
+            if ($dataSkills[i] != null && $dataSkills[i]['name'] == ("Fire " + name)) {
+                return i;
             }
         }
     }
-    //Create the weapon to shoot
-    var weapon = findWeapon(args[0]);
     if (command == "cantShoot") {
+        //Create the weapon
+        var skillId = findSkill(args[0]);
         //The "Seal" code is 44
-        weapon.traits[0].code = 44;
-        console.log(weapon);
+        $dataClasses[5].traits[skillId].code = 44;
     }
     if (command == "canShoot") {
+        //Create the weapon 
+        var skillId = findSkill(args[0]);
         // Unseal the skill
-        weapon.traits[0].code = 43;
+        $dataClasses[5].traits[skillId].code = 43;
     }
 };
