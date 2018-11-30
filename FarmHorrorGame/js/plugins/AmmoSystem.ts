@@ -24,6 +24,14 @@ Window_Base.prototype.drawActorLevel = function(actor, x, y) {
 
 
 }
+
+Window_Base.prototype.drawActorMp = function(actor, x, y, width) {
+
+};
+
+Window_Base.prototype.drawActorTp = function(actor, x, y, width) {
+
+};
     
     
 var ammo_system = Game_Interpreter.prototype.pluginCommand;
