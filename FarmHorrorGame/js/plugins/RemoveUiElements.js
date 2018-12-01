@@ -36,3 +36,6 @@ Window_Base.prototype.hpColor = function (actor) {
 Window_Base.prototype.systemColor = function () {
     return "#ffffff";
 };
+Window_ItemCategory.prototype.makeCommandList = function () {
+    this.addCommand(TextManager.item, 'item');
+};
