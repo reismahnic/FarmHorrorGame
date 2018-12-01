@@ -11,3 +11,7 @@ Window_Base.prototype.drawActorMp = function (actor, x, y, width) {
 };
 Window_Base.prototype.drawActorTp = function (actor, x, y, width) {
 };
+// Remove item categories
+Window_ItemCategory.prototype.maxCols = function () {
+    return 1;
+};
