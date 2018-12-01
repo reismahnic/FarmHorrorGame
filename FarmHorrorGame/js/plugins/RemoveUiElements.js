@@ -1,5 +1,5 @@
 /*:
- * @plugindesc   Removes certain UI elements.
+ * @plugindesc   Remove and change certain UI elements.
  * @author 2018        Jake Weston
  * @help
  
