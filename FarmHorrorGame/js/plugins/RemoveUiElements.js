@@ -15,3 +15,12 @@ Window_Base.prototype.drawActorTp = function (actor, x, y, width) {
 Window_ItemCategory.prototype.maxCols = function () {
     return 1;
 };
+Scene_Shop.prototype.createSellWindow = function () {
+};
+Window_ShopCommand.prototype.maxCols = function () {
+    return 2;
+};
+Window_ShopCommand.prototype.makeCommandList = function () {
+    this.addCommand(TextManager.buy, 'buy');
+    this.addCommand(TextManager.cancel, 'cancel');
+};
