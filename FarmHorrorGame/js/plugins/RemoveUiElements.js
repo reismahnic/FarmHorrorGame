@@ -24,3 +24,15 @@ Window_ShopCommand.prototype.makeCommandList = function () {
     this.addCommand(TextManager.buy, 'buy');
     this.addCommand(TextManager.cancel, 'cancel');
 };
+Window_Base.prototype.hpGaugeColor1 = function () {
+    return "#ffffff";
+};
+Window_Base.prototype.hpGaugeColor2 = function () {
+    return "#ffffff";
+};
+Window_Base.prototype.hpColor = function (actor) {
+    return "#e3e3e3";
+};
+Window_Base.prototype.systemColor = function () {
+    return "#ffffff";
+};
