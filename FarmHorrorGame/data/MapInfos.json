@@ -11,6 +11,6 @@ null,
 {"id":9,"expanded":false,"name":"ForestBeforeEnteringShack","order":9,"parentId":0,"scrollX":1081.3333333333333,"scrollY":1796},
 {"id":10,"expanded":false,"name":"ForestPondShackBeforeFirstFight","order":10,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
 {"id":11,"expanded":false,"name":"FieldsShack","order":11,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
-{"id":12,"expanded":false,"name":"HouseOnCliffInColor","order":12,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":12,"expanded":false,"name":"HouseOnCliffInColor","order":12,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
 {"id":13,"expanded":false,"name":"Closing Blank Cutscene Map","order":13,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666}
 ]
